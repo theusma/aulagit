@@ -1,0 +1,1042 @@
+* {margin:0; padding: 0;}
+html, body {height:100%;}
+
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+    color:#FFF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    min-height: auto;
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.cabecalho{
+    width: 100%;
+    height: auto;
+    background-color: #013153;
+}
+
+.cabecalho .logo{
+    padding-top: 20px;
+padding-bottom: 15px;
+}
+.cabecalho .area-logo{
+width: 50%;
+position: relative;
+float: left
+}
+.cabecalho .area-login{
+width: 50%;
+position: relative;
+float: left
+}
+    .cabecalho .formulario-login{
+    text-align: right;
+    text-align: right;
+}
+.cabecalho .login-e-senha{
+    float: right;
+    margin-top: 35px;
+}
+.cabecalho .formulario-login button{
+width: 100%;
+font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: #4490fe;
+    text-align: center;
+border: none;
+padding-top: 8px; 
+padding-bottom: 8px;
+color: #fff;
+cursor: pointer;
+font-size: 14px;
+}
+.cabecalho .formulario-login{
+width: 70%;
+float: right;}
+
+.menu{
+    text-align: center;
+    background-color: #4490fe;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
+}
+.menu ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 4%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none
+}
+.menu ul li:first-child{
+  margin-left: 0%  
+}
+
+
+#quem-somos {
+    background-image: url(../images/bg-quem-somos.jpg); 
+    background-size: 100%;
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+#quem-somos h1{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 80px;
+}
+
+#quem-somos p{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+/* Define backgrounds dos divs */
+#conteudo {
+    background-image: url(../images/bg-conteudo.jpg); 
+    background-size: 100%;
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+
+#conteudo  h1{
+    font-family: 'Raleway', sans-serif;
+    color: #013153;
+    padding-top: 180px;
+    font-size: 36px;
+    font-weight: 700
+}
+#conteudo  h2{
+    font-family: 'Raleway', sans-serif;
+    color: #013153;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 400
+}
+#conteudo  h3{
+    font-family: 'Raleway', sans-serif;
+    color: #4490fe;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400
+}
+.clear{clear: both;}
+
+.formulario{
+    width: 45%;
+    margin-top: 30px;
+}
+ .input-diferente:first-child{
+    margin-left: 0%;
+}
+.input-diferente{
+width: 48%;
+float: left;
+margin-left: 4%;
+
+}
+.formulario label{
+    font-family: 'Raleway', sans-serif;
+font-weight: 400;
+color: #013153;
+margin-bottom: 10px;
+}
+.formulario select{
+    margin-top: 5px;
+}
+input , select{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: none;
+background: #fff;
+height: 30px;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+padding-left: 10px;
+ color: #013153;
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+     margin-bottom: 20px;
+     height: 100px;
+     max-height: 100px;
+     max-width: 100%;
+     min-width: 100%;
+     min-height: 100%;
+}
+
+
+.formulario  .no-margin{
+    margin-left: 0% !important;
+}
+.formulario button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: #013153;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 180px;
+}
+
+#banner {
+    background-image: url(../images/bg-sistema.jpg); 
+    background-size: 100%;
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+
+#banner h1{
+    font-family: 'Raleway', sans-serif;
+    color: #013153;
+    padding-top: 120px;
+    font-size: 42px;
+    font-weight: 700;
+        padding-top: 160px;
+        text-shadow: 1px 1px 3px rgba(255, 255, 255, 1);
+}
+#banner button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: #013153;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   width: 23.5%;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+        margin-top: 20px;
+        margin-bottom: 160px;
+}
+
+.topo-contato{
+    background: #4490fe;
+    width: 100%
+}
+.topo-contato h1{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+#contato{
+    background-image: url(../images/bg-contato.jpg); 
+    background-size: 100%;
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+#contato h1{
+      font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 80px;
+    text-align: center;
+}
+.formulario-contato {
+    width: 45%;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.formulario-contato  .no-margin{
+    margin-left: 0% !important;
+}
+.formulario-contato button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: #4490fe;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+.icones{
+    text-align:center;
+    padding-bottom:20px;
+} 
+.icones .li-rodape{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+     margin-right: 5%;
+}
+.icones li{
+    list-style:none;
+    display:inline-block;
+    margin-left: 2%;
+    font-size: 20px;
+    
+    
+}
+
+#banner-interna {
+    background-image: url(../images/bg-interna.jpg); 
+    background-size: 100%;
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+
+
+
+#banner-interna h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+#banner-interna .estrelas{
+    text-align: center;
+}
+#banner-interna .estrelas img{
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 80px;
+}
+.topo-opcoes{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #013153;
+}
+
+
+.topo-opcoes h2{
+    font-weight: 600;
+font-size: 18px;
+color: #013153;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+}
+
+.topo-opcoes p{
+    font-weight: 400;
+font-size: 15px;
+color: #666;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'Raleway', sans-serif;
+}
+
+.topo-opcoes  button {
+    background: #013153;
+    border: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+margin-bottom: 3px;
+font-size: 16px;
+text-transform: uppercase;
+    
+}
+.topo-opcoes  button a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#conteudo-interna{
+    background: #013153
+}
+#conteudo-interna ul{text-align: center}
+#conteudo-interna ul li{
+ font-family: 'Raleway', sans-serif;
+ font-weight: 700;
+ display: inline-block;
+ list-style:none;
+ width: 33%;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ 
+}
+#conteudo-interna ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.conteudo-tabs{
+   background-image: url(../images/bg-tab.jpg); 
+    background-size: 100%;
+    background-position: center;   
+    background-repeat: no-repeat;
+
+}
+.conteudo{
+   background: #4490fe;
+   padding-bottom: 60px;
+}
+.conteudo-tabs H1{
+     font-family: 'Raleway', sans-serif;
+     padding-top: 80px;
+     font-weight: 400;
+     text-align: center;
+}
+.formulario-cadastro-estabelecimeto {
+    width: 45%;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.formulario-cadastro-estabelecimeto  .no-margin{
+    margin-left: 0% !important;
+}
+.formulario-cadastro-estabelecimeto button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background: #4490fe;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.tabs{
+	background: #013153;
+}
+.tabs ul li:first-child{
+	margin-left: 0%;
+}
+.tabs ul li{
+	display: block;
+width: 25%;
+padding: 0 !important;
+box-sizing: border-box;
+margin: 0 !important;
+float: left;
+	text-align: center;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+	position: relative;
+	-webkit-transition: all 800ms ease-in 200ms;
+-moz-transition: all 800ms ease-in 200ms;-o-transition: all 800ms ease-in 800ms;transition: all 800ms ease-in800ms;
+}
+.tabs ul li a span{
+	-webkit-transition: all 800ms ease-in 200ms;
+-moz-transition: all 800ms ease-in 200ms;-o-transition: all 800ms ease-in 800ms;transition: all 800ms ease-in800ms;
+}
+.tabs ul li a{
+	color: #fff;
+	display: block;
+	width: 100%;
+	padding-top: 18px;
+padding-bottom: 18px;
+	text-decoration: none;
+-webkit-transition: all 800ms ease-in 200ms;
+-moz-transition: all 800ms ease-in 200ms;-o-transition: all 800ms ease-in 800ms;transition: all 800ms ease-in800ms;
+		
+}
+
+.tabs ul li:hover> span,.active span{
+	position: absolute;
+height: 4px;  
+	background: #00aeef;
+	width: 100%;
+	box-sizing: border-box;
+	left: 0;
+	top: 0;
+	
+}
+.active a{
+	background: #fff;
+	color: #00aeef !important;
+}
+.tabs ul li:hover> span{
+	position: absolute;
+height: 4px;  
+	background: #00aeef;
+	width: 100%;
+	box-sizing: border-box;
+	left: 0;
+	top: 0;
+	
+}
+
+
+.tabs ul li a:hover{
+	background: #fff;	
+	color: #00aeef !important;;
+}
+
+
+.titulo-conteudo{
+    background: #00aeef;
+    margin-top: 20px;
+}
+
+.titulo-conteudo h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.conteudo-opcoes {
+    padding-bottom: 80px;
+}
+
+.conteudo-opcoes ul{
+    background: #fff;
+}
+.conteudo-opcoes ul li{
+    list-style: none;
+    color: #013153;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+     padding-left: 20px;
+      padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.conteudo-opcoes ul .li-selecionado{
+    list-style: none;
+    color: #013153;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+     padding-left: 20px;
+      padding-top: 10px;
+    padding-bottom: 10px;
+    background: #eeeeee;
+
+}
+
+#tab-2 button {
+    background: #013153;
+    border: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+margin-bottom: 3px;
+    
+}
+#tab-2 button a{
+    color: #fff;
+    cursor: pointer;
+}
+.conteudo-opcoes ul li a{
+    text-decoration: none;
+    color: #013153;
+    display: block;
+}
+
+.area-usuario{
+    text-align: right;
+    width: 50%;
+    float: left;
+}
+.area-usuario .foto-user{
+    text-align: right;
+padding-right: 30px;
+margin-top: 30px;
+}
+.area-usuario a{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 500;
+     color: #fff;
+     text-decoration:none;
+     font-size:14px;
+}
+
+form{
+    text-align: center;
+}
+fieldset{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+fieldset legend{
+margin-left: 30px;
+font-size: 23px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+fieldset .avForm{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset label{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+    text-transform: uppercase;
+    display: block;
+}
+
+fieldset  textarea{
+    
+background: #eeeeee;
+margin-left: 30px;
+width: 45%;
+height: 120px;
+color: #013153;
+min-width: 45%;
+max-width: 45%;
+    font-family: 'Raleway', sans-serif;
+margin-top: 20px;
+font-size: 12px;
+padding: 10px;
+}
+
+fieldset input{
+    
+background: #eeeeee;
+margin-left: 30px;
+width: 45%;
+color: #013153;
+
+    font-family: 'Raleway', sans-serif;
+margin-top: 20px;
+font-size: 12px;
+padding: 10px;
+}
+fieldset button{
+    margin-left: 30px;
+}
+fieldset button:hover{
+    outline: 2px solid  #4490fe;
+}
+
+.dados input{
+    margin-top: 10px;
+}
+#btn-av{
+    background: #013153;
+border: none;
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+cursor: pointer;
+margin-top: 30px;
+margin-bottom: 3px;
+font-size: 25px;
+text-transform: uppercase;
+width: 30%;
+    
+}
+.item{
+    padding-bottom: 30px;
+border-bottom: 2px dotted #013153;}
+.item h1{
+    font-family: 'Raleway', sans-serif;
+font-weight: 500;
+text-align: left;
+font-size: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+text-transform: uppercase;
+}
+.item p{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+     padding-bottom: 30px;
+}
+.tabs-av ul li{
+    width: 25% !important;
+}
+.tabs-av{
+	background: #013153;
+}
+.tabs-av ul li:first-child{
+	margin-left: 0%;
+}
+.tabs-av ul li{
+    font-size: 14px;
+	display: block;
+width: 25%;
+padding: 0 !important;
+box-sizing: border-box;
+margin: 0 !important;
+float: left;
+	text-align: center;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+	position: relative;
+	-webkit-transition: all 800ms ease-in 200ms;
+-moz-transition: all 800ms ease-in 200ms;-o-transition: all 800ms ease-in 800ms;transition: all 800ms ease-in800ms;
+}
+.tabs-av ul li a span{
+	-webkit-transition: all 800ms ease-in 200ms;
+-moz-transition: all 800ms ease-in 200ms;-o-transition: all 800ms ease-in 800ms;transition: all 800ms ease-in800ms;
+}
+.tabs-av ul li a{
+	color: #fff;
+	display: block;
+	width: 100%;
+	padding-top: 18px;
+padding-bottom: 18px;
+	text-decoration: none;
+-webkit-transition: all 800ms ease-in 200ms;
+-moz-transition: all 800ms ease-in 200ms;-o-transition: all 800ms ease-in 800ms;transition: all 800ms ease-in800ms;
+text-transform: uppercase;		
+}
+
+.tabs-av ul li:hover> span,.active span{
+	position: absolute;
+height: 4px;  
+	background: #00aeef;
+	width: 100%;
+	box-sizing: border-box;
+	left: 0;
+	top: 0;
+	
+}
+.active a{
+	background: #fff;
+	color: #00aeef !important;
+}
+.tabs-av ul li:hover> span{
+	position: absolute;
+height: 4px;  
+	background: #00aeef;
+	width: 100%;
+	box-sizing: border-box;
+	left: 0;
+	top: 0;
+	
+}
+
+
+.tabs-av ul li a:hover{
+	background: #fff;	
+	color: #00aeef !important;;
+}
+
+
+.av{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 968px){
+    #banner {
+    background-size: cover;
+}
+ #quem-somos {
+    background-size: cover;
+   
+}   
+#banner-interna {
+    background-image: url(../images/bg-interna.jpg);
+    background-size: cover;
+    #contato , #conteudo , #conteudo-interna{
+    background-size: cover;
+}
+.conteudo-tabs {
+    background-image: url(../images/bg-tab.jpg);
+    background-size: cover;}
+    
+}}
+
+@media only screen and (max-width : 768px){
+    .topo-opcoes {
+
+    font-size: 18px;
+    color: #013153;
+}
+    .container{
+        max-width: 96%;
+    }
+    #conteudo {
+    background-image: url(../images/bg-conteudo-mobile.jpg);
+    background-size: cover;
+   
+}  
+.area-usuario {
+    text-align: center;
+    width: 100%;
+    float: none;
+    padding-bottom: 20px;
+}
+.area-usuario .foto-user {
+    text-align: center;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+
+.cabecalho .area-logo {
+    width: 100%;
+    position: relative;
+    float: none;
+    text-align: center;
+}
+
+#conteudo-interna ul li {
+    
+    font-size: 13px;
+}
+.conteudo-tabs {
+    background-image: url(../images/bg-tab.jpg);
+    background-size: cover;}
+#banner-interna h1 {
+    
+    font-size: 30px;
+
+}
+#banner-interna .estrelas img {
+    width: 100%;
+    max-width: 280px;
+
+}
+#banner-interna {
+    background-image: url(../images/bg-interna.jpg);
+    background-size: cover;
+   #contato {
+    background: #013153;
+    
+} 
+    .container{
+        max-width: 96%;
+    }
+    .cabecalho .area-logo {
+    width: 100%;
+    position: relative;
+    float: none;
+    text-align: center;
+}
+
+.cabecalho .area-login {
+    width: 100%;
+    position: relative;
+    float: none;
+    text-align: center;
+}
+.cabecalho .login-e-senha {
+    float: none;
+}
+.cabecalho .formulario-login {
+    width: 50%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabecalho .formulario-login button {
+    margin-bottom: 40px;
+}
+
+#conteudo h1 {
+   
+    padding-top: 60px;
+
+}
+.formulario button {
+   
+    margin-bottom: 60px;
+}
+.formulario {
+    width: 100%;
+    margin-top: 30px;
+}
+#banner button {
+   
+    width: 40%;
+   
+    margin-bottom: 60px;
+}
+#banner h1 {
+   
+    padding-top: 60px;
+}
+.formulario-contato {
+    width: 100%;
+    padding-top: 60px;
+}
+#contato h1 {
+    padding-top: 60px;
+}
+.formulario-contato button {
+    
+    margin-bottom: 60px;
+}
+
+#conteudo-interna ul li {
+   
+    width: 100%;
+
+}
+.conteudo-tabs {
+    background: #133a57;}
+#conteudo-interna{
+    background-size: cover;
+}
+}}
+@media only screen and (max-width : 600px){
+    fieldset {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.cabecalho .area-login {
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+.input-diferente {
+    width: 100%;
+    float: none;
+    margin-left: 0%;
+}
+fieldset textarea {
+
+    width: 90%!important;
+   
+    min-width: 45% !important;
+    max-width: 80%!important;
+
+}
+fieldset input{
+    
+background: #eeeeee;
+margin-left: 0px;
+width: 90%!important;
+color: #013153;
+
+}
+.topo-opcoes button{
+    margin-left: 0;
+}
+}
+
+@media only screen and (max-width : 550px){
+        .topo-opcoes {
+
+    font-size: 14px;
+    color: #013153;
+}
+    
+    .area-logo .logo img{
+        max-width: 90%;
+    }
+    .conteudo-tabs H1 {
+    
+    font-size: 25px;
+}
+#conteudo-interna ul li {
+    
+    width: 100%;}
+#conteudo-interna ul li {
+    
+    font-size: 16px;
+}
+.formulario-cadastro-estabelecimeto {
+    width: 90%;}
+}
+@media only screen and (max-width : 400px){
+    .cabecalho .formulario-login {
+    width: 100%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cabecalho .logo img{
+    width: 98%;
+}
+#banner button {
+    width: 60%;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+#banner h1 {
+    
+    font-size: 35px;
+    font-weight: 700;
+   
+}
+
+}
+
+
